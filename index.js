@@ -1,4 +1,4 @@
-
+const nodemailer = require('nodemailer')
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const express = require("express");
@@ -6,7 +6,6 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt')
 const session = require('express-session')
 const passport = require('passport')
-const nodemailer = require('nodemailer')
 const passportLocalMongoose = require('passport-local-mongoose')
 
 require('dotenv').config();
